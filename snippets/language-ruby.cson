@@ -192,6 +192,9 @@
   'each_with_index { |e, i| .. }':
     'prefix': 'eawi'
     'body': 'each_with_index { |${1:e}, ${2:i}| $0 }'
+  'else ...':
+    'prefix': 'else'
+    'body': 'else\n\t$0'
   'elsif ...':
     'prefix': 'elsif'
     'body': 'elsif ${1:condition}\n\t$0'
